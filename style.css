@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+form,
+.tableList {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid rgb(194, 194, 194);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+button[type="submit"],
+#reset {
+  padding: 5px 10px;
+  background: rgb(182, 180, 180);
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.searchBox {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 5px;
+}
+.searchBox button {
+  padding: 5px;
+}
+table {
+  width: 100%;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+td,
+th {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+}
+input {
+  padding: 5px 5px;
+  border: 1px solid lightgray;
+}
+.searchBox input {
+  border-right: none;
+}
+.tableList {
+  align-items: flex-start;
+}
+#reset {
+  transform: translateY(31px);
+}
